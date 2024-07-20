@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>The model predicts the image is: <strong>{{ prediction }}</strong></p>
+    <a href="/input" class="btn">Predict Another Image</a>
+    <a href="/" class="btn">Back to Home</a>
+</body>
+</html>
